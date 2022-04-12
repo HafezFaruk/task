@@ -1,0 +1,16 @@
+@media screen and (max-width: 556px) {
+  .left-content-role {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .left-content {
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .left-content {
+    text-align: center;
+  }
+}

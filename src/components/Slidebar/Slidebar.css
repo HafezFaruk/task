@@ -1,0 +1,63 @@
+.css-qxh7fn {
+  width: 700px !important;
+}
+.css-14pt78w-MuiSlider-rail {
+  height: 7px !important;
+}
+.css-1gv0vcd-MuiSlider-track {
+  background-color: transparent !important;
+  border: transparent !important;
+  background-color: #0d8a57 !important;
+  height: 7px !important;
+}
+.css-eg0mwd-MuiSlider-thumb {
+  background-color: transparent !important;
+  background-color: #fff !important;
+  width: 30px !important;
+  height: 30px !important;
+  z-index: 5;
+}
+.css-eg0mwd-MuiSlider-thumb::after {
+  content: "";
+  width: 20px !important;
+  height: 20px !important;
+  background-color: #5227dd !important;
+  z-index: -1;
+}
+@media screen and (max-width: 768px) {
+  .css-qxh7fn {
+    text-align: center !important;
+    width: 430px !important;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  .css-qxh7fn {
+    text-align: center !important;
+    width: 520px !important;
+  }
+}
+@media screen and (max-width: 414px) {
+  .css-qxh7fn {
+    text-align: center !important;
+    width: 380px !important;
+  }
+}
+@media screen and (max-width: 390px) {
+  .css-qxh7fn {
+    text-align: center !important;
+    width: 350px !important;
+  }
+}
+@media screen and (max-width: 360px) {
+  .css-qxh7fn {
+    text-align: center !important;
+    width: 320px !important;
+  }
+}
+@media screen and (max-width: 320px) {
+  .css-qxh7fn {
+    text-align: center !important;
+    width: 280px !important;
+  }
+}

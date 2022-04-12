@@ -1,0 +1,98 @@
+ul {
+  padding: 0;
+  color: gray;
+}
+ul li {
+  list-style: none;
+}
+p {
+  color: gray;
+}
+.footer {
+  background-color: #272626;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+.margin_bottom{
+  margin-top: 3rem;
+}
+.margin_Kingdom{
+  margin-top: 4rem;
+}
+.logo {
+  width: 8rem;
+}
+.footer-b {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-b p{
+
+margin-top: 20px;
+}
+.footer_icons {
+  margin: 0 0.5rem;
+  font-size: 2rem;
+  padding: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .medium_size{
+    margin-top: 2rem;
+  }
+  .margin_bottom{
+    margin-top: 1rem;
+  }
+  .margin_Kingdom{
+  margin-top: 2rem;
+}
+.footer-b p{
+font-size: 14px;
+margin: 0;
+}
+}
+@media screen and (max-width: 767px) {
+  .Developers{
+    margin-top: 2rem;
+  }
+}
+@media screen and (max-width: 556px) {
+  .footer-content-role {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .footer-b {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 360px) {
+  .footer-b p{
+font-size: 12px;
+margin: 0;
+}
+  .footer-content-role {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .footer-b {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 320px) {
+   .footer-b p{
+font-size: 10px;
+margin: 0;
+}
+  .footer-content-role {
+    margin: 20px 0;
+    text-align: center;
+  }
+  .footer-b {
+    display: flex;
+    flex-direction: column;
+  }
+}

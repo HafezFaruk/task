@@ -1,0 +1,87 @@
+.upload-box {
+  width: 700px;
+  height: 80px;
+  border: 2px dashed lightgray;
+  border-radius: 6px;
+  position: relative;
+  padding: 19px;
+}
+.upload-box button {
+  float: right;
+  padding: 5px;
+  color: white;
+  background-color: blue;
+  width: 90px;
+  border-radius: 8px;
+  border: transparent;
+  cursor: pointer;
+}
+.upload-box .drag {
+  margin-top: -50px;
+}
+.upload-box span img {
+  height: 40px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 23px;
+  margin: -3px 20px 0 10px;
+}
+.upload-box input {
+  opacity: 0;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 14px;
+  /* width: 588px; */
+}
+@media screen and (max-width: 768px) {
+  .upload-box {
+    width: 460px;
+  }
+  .drag {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 556px) {
+  .upload-box {
+    width: 540px;
+  }
+  .drag {
+    display: none;
+  }
+}
+@media screen and (max-width: 414px) {
+  .upload-box {
+    width: 390px;
+  }
+  .drag {
+    display: none;
+  }
+}
+@media screen and (max-width: 390px) {
+  .upload-box {
+    width: 370px;
+  }
+  .drag {
+    display: none;
+  }
+}
+@media screen and (max-width: 360px) {
+  .upload-box {
+    width: 340px;
+  }
+  .drag {
+    display: none;
+  }
+}
+@media screen and (max-width: 320px) {
+  .upload-box {
+    width: 300px;
+  }
+  .drag {
+    display: none;
+  }
+  .upload-box span img {
+    margin-top: 9px;
+  }
+}

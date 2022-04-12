@@ -1,0 +1,85 @@
+.App {
+  background-color: #000;
+  color: white;
+  overflow-x: hidden;
+  position: relative;
+
+}
+.animation{
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  /* z-index: -1; */
+}
+.input-size,
+.input-size1 {
+  background: transparent;
+  margin-top: 20px;
+  padding: 5px;
+  border: 2px solid gray;
+  border-radius: 5px;
+}
+.input-size {
+  width: 49%;
+}
+.input-size1 {
+  width: 100%;
+}
+.input-size2 {
+  margin-right: 2%;
+}
+
+select {
+  color: gray;
+  background: transparent;
+  border: none;
+}
+.CarouselSlide {
+  border-radius: 10px;
+  border: 2px solid gray;
+  padding: 20px;
+}
+
+.box {
+  background: linear-gradient(45deg, red, blue);
+  height: 80px;
+  width: 80px;
+  border-radius: 50px;
+  display: inline-block;
+  margin: 0;
+  position: relative;
+}
+.box:hover {
+  background: blue;
+}
+.box p {
+  background: #000;
+  color: #fff;
+  border-radius: 50px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 75px;
+  position: absolute;
+  left: 3px;
+  top: 3px;
+  font-size: 14px;
+}
+.box p:hover {
+  background: blue;
+  transition: all 0.5s;
+}
+.checkbox_input {
+  border: 3px solid rgb(0, 255, 123);
+  border-radius: 10px;
+}
+.select_time{
+  color: #fff;
+}
+
+.select_option option {
+  background-color: #fff;
+  color: #000;
+  border: none;
+}

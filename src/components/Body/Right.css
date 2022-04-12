@@ -1,0 +1,114 @@
+.right-content {
+  border-left: 3px solid grey;
+}
+.margin_right {
+  margin-left: 20px;
+}
+.right-content-role-last p {
+  margin-top: 10px;
+}
+.submit_btn {
+  width: 10rem;
+  height: 2.5rem;
+  background: #6333ff;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+  /* .right-content {
+    border-left-style: none;
+  } */
+}
+@media screen and (max-width: 556px) {
+  .right-content {
+    border-left: none;
+  }
+  .margin_right {
+    margin-left: 0;
+  }
+  .margin_right .submit_btn {
+    display: flex;
+    justify-content: center;
+    margin: 18px auto;
+    padding-top: 7px;
+  }
+}
+@media screen and (max-width: 414px) {
+  .right-content {
+    border-left: none;
+  }
+  .margin_right {
+    margin-left: 0;
+  }
+  .margin_right .submit_btn {
+    display: flex;
+    justify-content: center;
+    margin: 18px auto;
+    padding-top: 7px;
+  }
+  .right-content-role-last p {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .margin_right h4 {
+    font-size: 25px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 360px) {
+  .margin_right h4 {
+    font-size: 23px;
+    text-align: center;
+  }
+  .margin_right .submit_btn {
+    display: flex;
+    justify-content: center;
+    margin: 18px auto;
+    padding-top: 7px;
+  }
+  .right-content-role {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .right-content {
+    border-left: none;
+  }
+  .margin_right {
+    margin-left: 0;
+  }
+  .right-content-role {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .right-content-role img {
+    margin: 15px 0;
+  }
+  .margin_right h3 {
+    font-size: 22px;
+  }
+  .margin_right h4 {
+    font-size: 20px;
+    text-align: center;
+  }
+  .right-content-role-last p {
+    margin-top: 15px;
+    text-align: center;
+  }
+  .right-content-role-last {
+    display: flex;
+    flex-direction: column;
+  }
+  .margin_right .submit_btn {
+    display: flex;
+    justify-content: center;
+    margin: 18px auto;
+    padding-top: 7px;
+  }
+}
